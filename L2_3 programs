@@ -1,0 +1,134 @@
+Sree Akshaya 
+Roll No 29
+Sec B_14
+Date: 03-08-2020
+
+
+
+1.Copy the contents from one array to another
+ar1=[1,2,3,4,5];
+ar2=[Array]*len(ar1);
+length=len(ar1)
+   for i in range(0, length):
+    ar2[i]=ar1[i];
+print("Elements of original array:");
+print(ar1)
+print ();
+print("Elements of new array:");
+  for i in range (0,len(ar2)):
+print (ar2[i])
+
+Output:
+Elements of original array:
+1
+2
+3
+4
+5
+Elements of new array:
+1
+2
+3
+4
+5
+
+
+#taking input from the user
+ar=str(input ())
+
+ar2=[Array]*len(ar1);
+length=len(ar1)
+   for i in range(0, length):
+    ar2[i]=ar1[i];
+print ("Elements of original array:")
+print(ar1)
+print ();
+print("Elements of new array:");
+  for i in range (0,len(ar2)):
+print (ar2[i])
+
+Output:
+Elements of original array
+14
+20
+11
+18
+29
+Elements of new array
+14
+20
+11
+18
+29
+
+
+
+
+2. copy contents from one array to another array in reverse order
+
+ar1=[1,2,3,4,5];
+ar2=[Array]*len(ar1);
+length=len(ar1)
+   for i in range(0, length-i-1 ):
+    ar2[i]=ar1[i];
+print("Elements of original array:");
+print(ar1)
+print ();
+print("Elements of new array:");
+for i in range (0,len(ar2)):
+print (ar2[i])
+
+Output:
+Elements of original array:
+1
+2
+3
+4
+5
+
+
+Elements of new array
+5
+4
+3
+2
+1
+
+
+
+3. Delete the duplicate elements from an array
+
+
+def Remove (ar);
+final []
+for num in ar:
+if num not in final:
+final.append(num)
+return final
+ar=[12,14,16,18,14,12,20,22]
+print (ar)
+print (Remove (ar))
+
+Output:
+12
+14
+16
+18
+20
+22
+
+#using lists
+
+
+def g_function(x):
+  return list(dict.fromkeys(x))
+
+glist = my_function(["a", "b", "a", "c", "c"])
+
+print(glist)
+
+ 
+Output:
+['a','b','c']
+
+
